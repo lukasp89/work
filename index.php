@@ -173,7 +173,7 @@ echo "      <p>http://filex.bravoforce.cz/$slozka</p>\n";
   <a href="logout.php">Odhlásit</a>
   </div>  
 
-<?php endif; ?>
+
 <div id="novaslozka" style="display: none">
 <form method="post" action="novaslozka.php">
 <p>Název složky: <input type="text" name="novaslozka" value="">
@@ -183,6 +183,7 @@ echo "      <p>http://filex.bravoforce.cz/$slozka</p>\n";
 <input type="button" class="roztahnutelne" id="novaslozkacncl" value="Storno"></p>
 </form>
 </div>
+<?php endif; ?>
 <script type="text/javascript">
 function predukonc() {
   $.post("vymaz.php", { deltempadr: '1' })
