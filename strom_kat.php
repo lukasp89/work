@@ -1,5 +1,5 @@
 <div class="moduletable_menu">
-<h3><span><strong>E-shop</strong></span></h3>
+<h3>E-shop</h3>
   <div class="moduletable_content">
 <?php
 global $cat_id;
