@@ -183,7 +183,6 @@ echo "      <p>http://filex.bravoforce.cz/$slozka</p>\n";
 <input type="button" class="roztahnutelne" id="novaslozkacncl" value="Storno"></p>
 </form>
 </div>
-<?php endif; ?>
 <script type="text/javascript">
 function predukonc() {
   $.post("vymaz.php", { deltempadr: '1' })
@@ -205,6 +204,6 @@ if (document.getElementById("novaslozka")) {
 });   
 </script>             
 </div>
-
+<?php endif; ?>
 </body>
 </html>
