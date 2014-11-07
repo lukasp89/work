@@ -100,9 +100,10 @@ $polozka->vicepol();
 <script>
 paypal.minicart.render({
   strings: {
-      button: "Zaplatit přes PayPal",
+      button: 'Zaplatit přes <img src="http://cdnjs.cloudflare.com/ajax/libs/minicart/3.0.1/paypal_65x18.png" width="65" height="18" alt="PayPal" />',
       buttonAlt: "Zaplatit přes PayPal:",
-      subtotal: "Celkem:"
+      subtotal: "Celkem:",
+      empty:"Váš nákupní košík je prázdný"
   }
 });
 </script>
