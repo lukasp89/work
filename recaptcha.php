@@ -43,7 +43,7 @@ $recaptcha=$_POST['g-recaptcha-response'];
   $ip=$_SERVER['REMOTE_ADDR'];
   $url=$google_url."?secret=".$secret_key."&response=".$recaptcha."&remoteip=".$ip;
   $res=getCurlData($url);
-  $res= json_decode($res, true);
+  $res=json_decode($res, true);
     if ($res['success']) {
     echo "<p>Jste člověk!</p>";
     //...
