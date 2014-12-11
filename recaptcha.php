@@ -52,6 +52,7 @@ $recaptcha=$_POST['g-recaptcha-response'];
     echo "<p>Ověření bylo neúspěšné. Prosím zkuste to znovu.</p>";
     }
   }
+
 }
 ?>
 </body>
